@@ -11,6 +11,7 @@ router.get('/', function (ctx, next) {
 router.get('/userceshi/:page', function (ctx, next) {
     console.log("aaaa");
     ctx.body=1;
+    console.log("bbb")
 });
 
 router.post('/photo',async function (ctx, next) {
