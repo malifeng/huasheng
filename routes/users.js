@@ -11,7 +11,7 @@ router.get('/', function (ctx, next) {
 router.get('/userceshi/:page', function (ctx, next) {
     console.log("aaaa");
     ctx.body=1;
-    console.log("再试试")
+    console.log("分支")
 });
 
 router.post('/photo',async function (ctx, next) {
